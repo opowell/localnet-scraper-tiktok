@@ -1,0 +1,16 @@
+{
+  "scrapers": [
+    {
+      "name": "TikTok",
+      "urlPattern": "tiktok.com",
+      "searchUrl": "https://www.tiktok.com/search?q={term}"
+    }
+  ],
+  "file": "tiktok.js",
+  "videos": [
+    {
+      "match": "^https://www\\.tiktok\\.com/player/v1/\\d+$",
+      "embed": true
+    }
+  ]
+}
